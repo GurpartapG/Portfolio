@@ -1,0 +1,51 @@
+.headerText
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 39px 20px;
+
+}
+
+.line
+{
+    height: 2px;
+    background: #0f172a;
+    flex: 1;
+}
+
+.wrapper
+{
+    width: 850px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text
+{
+    font-weight: 600;
+    font-size: 2.3rem;
+    -webkit-text-stroke: 1.6px #0f172a;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionContent
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+@media (min-width:640px)
+{
+    .sectionContent
+    {
+        padding: 0px, 50px;
+        
+    }
+}
