@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './header.module.css'
+
 export default function Header() {
     return (
         <header className={styles.header}>
@@ -13,6 +14,9 @@ export default function Header() {
                 </a>
                 <a href='#projects' className={styles.anchor}>
                     <i className={`fa-solid fa-diagram-project ${styles.icons}`}></i>
+                </a>
+                <a href='#footer' className={styles.anchor}>
+                    <i className={`fa-solid fa-envelope ${styles.icons}`}></i>
                 </a>
             </div>
         </header>
