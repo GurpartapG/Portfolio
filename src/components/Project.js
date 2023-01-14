@@ -35,7 +35,7 @@ export default function Projects() {
           <ImageOverlay
             imgSrc={soccer}
             title={"Soccer Knockout"}
-            github={"https://github.com/GurpartapG/portfolio.git"}>
+            github={"https://github.com/GurpartapG/Random-Football-Match"}>
             A software developed to randomly generate a football match between eight teams that qualifies them for a hierarchy of levels
             <br></br><br></br>
             C#
@@ -43,7 +43,7 @@ export default function Projects() {
           <ImageOverlay
             imgSrc={tictactoe}
             title={"Tic Tac Toe"}
-            github={"https://github.com/GurpartapG/portfolio.git"}>
+            github={"https://github.com/GurpartapG/TikTacToe"}>
             An emulation of tic-tac-toe
             <br></br><br></br>
             Python 
@@ -51,7 +51,7 @@ export default function Projects() {
           <ImageOverlay
             imgSrc={blackjack}
             title={"Black Jack"}
-            github={"https://github.com/GurpartapG/portfolio.git"}>
+            github={"https://github.com/GurpartapG/BlackJack---Python"}>
             A game modelling the example of a casino banked game
             <br></br><br></br>
             Python 
@@ -59,7 +59,7 @@ export default function Projects() {
           <ImageOverlay
             imgSrc={movie}
             title={"Box-Office"}
-            github={"https://github.com/GurpartapG/portfolio.git"}>
+            github={"https://github.com/GurpartapG/Movie-Ticket"}>
             A preliminary system imitating the box office programmed for selling movie tickets to general public
             <br></br><br></br>
             C# &nbsp;&nbsp;&nbsp;  ASP
@@ -67,7 +67,7 @@ export default function Projects() {
           <ImageOverlay
             imgSrc={phonebook}
             title={"Phone-Book"}
-            github={"https://github.com/GurpartapG/portfolio.git"}>
+            github={"https://github.com/GurpartapG/Phone-Book-Application-C"}>
             Telephone directory built to add new contacts and modify as per requirement
             <br></br><br></br>
             C
