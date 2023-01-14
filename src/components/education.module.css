@@ -39,6 +39,40 @@
 @media (min-width:640px) {
     .sectionContent {
         padding: 0px, 50px;
-
     }
+
+    .list
+    {
+        height: 40px;
+        margin: 0px 5px 10px;
+    }
+    
 }
+
+
+.skills {
+    /*display: flex;
+    justify-content: center;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list{
+    border: 1px solid white;
+    width: auto;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 40px 10px 15px;
+    color: white;
+}
+
+.title
+{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+

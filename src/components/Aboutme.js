@@ -34,18 +34,9 @@ export default function Aboutme() {
                         <div className={styles.overlay}>
                             <img src={mebw} className={styles.bw} title='Gps'></img>
                         </div>
-
                     </div>
 
-
-
-
-
-
                 </div>
-                {/*<div className={styles.icon}>
-
-        </div>*/}
             </div>
         </section>
 

@@ -51,11 +51,12 @@
     opacity: 0;
 }
 
-.container:hover .imageDisp {
+.container:hover .imageDisp
+{
     opacity: 0;
 }
-
-.container:hover .bw {
+.container:hover .bw
+{
     opacity: 1;
 }
 
@@ -72,9 +73,6 @@
     height: 100%;
     width: 100%;
 }
-
-
-
 
 @media (min-width: 640px) {
     .text {
