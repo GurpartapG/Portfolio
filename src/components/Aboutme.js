@@ -29,10 +29,10 @@ export default function Aboutme() {
                     </p>
 
                     <div className={styles.container}>
-                        <img src={me} className={styles.imageDisp} alt='Gps'></img>
+                        <img src={me} className={styles.imageDisp} title='Gps'></img>
 
                         <div className={styles.overlay}>
-                            <img src={mebw} className={styles.bw} alt='Gps'></img>
+                            <img src={mebw} className={styles.bw} title='Gps'></img>
                         </div>
 
                     </div>
