@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.09957e9d.css",
+    "main.js": "/Portfolio/static/js/main.3f170f38.js",
+    "static/media/me.jpg": "/Portfolio/static/media/me.4400c67493cce2c6b25e.jpg",
+    "static/media/mebw.jpg": "/Portfolio/static/media/mebw.6ee83fbe3c86b89b5d9f.jpg",
+    "static/media/smokeSensor.jpg": "/Portfolio/static/media/smokeSensor.0d5922645a1840612b8b.jpg",
+    "static/media/portfolioPic.png": "/Portfolio/static/media/portfolioPic.b668159d4709192c56bb.png",
+    "static/media/movie.png": "/Portfolio/static/media/movie.e6f89582eeb670ec3056.png",
+    "index.html": "/Portfolio/index.html",
+    "main.09957e9d.css.map": "/Portfolio/static/css/main.09957e9d.css.map",
+    "main.3f170f38.js.map": "/Portfolio/static/js/main.3f170f38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09957e9d.css",
+    "static/js/main.3f170f38.js"
+  ]
+}
