@@ -2,6 +2,8 @@ import React from 'react'
 
 import styles from './aboutMe.module.css'
 import Sectionintroduction from './Sectionintroduction'
+import me from '../assets/me.jpg'
+import mebw from '../assets/mebw.jpg'
 
 export default function Aboutme() {
     return (
@@ -13,6 +15,7 @@ export default function Aboutme() {
                 </Sectionintroduction>
 
                 <div className={styles.sectionContent}>
+
                     <p className={styles.paragraph}>
                         Gurpartap Gill (he/him) is pursuing his passion for coding
                         and tech as a Computer Science major at York University.
@@ -24,6 +27,21 @@ export default function Aboutme() {
                         next generation with a legacy to look up to (the plan depends on an alien invasion
                         happening in the foreseeable future).
                     </p>
+
+                    <div className={styles.container}>
+                        <img src={me} className={styles.imageDisp} alt='Gps'></img>
+
+                        <div className={styles.overlay}>
+                            <img src={mebw} className={styles.bw} alt='Gps'></img>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
                 </div>
                 {/*<div className={styles.icon}>
 

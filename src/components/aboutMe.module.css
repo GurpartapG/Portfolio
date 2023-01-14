@@ -1,5 +1,4 @@
-.wrapper
-{
+.wrapper {
     width: 850px;
     max-width: 100%;
     display: flex;
@@ -7,39 +6,97 @@
     flex-direction: column;
 }
 
-.sectionContent
-{
+.sectionContent {
     padding: 20px;
     display: flex;
     /*grid-template-columns: repeat(1, minmax(0, 1fr));*/
     text-align: center;
     gap: 10px;
+
+    flex-direction: column;
 }
 
-.paragraph
-{
-    /*border: 1px solid #0f172a;*/ 
+.paragraph {
+    border: 0px solid #0f172a;
     padding: 7px;
-    font-weight: 300;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    /*display: grid;*/
+    text-align: justify;
+
 }
 
-@media (min-width: 640px)
-{
-    .text
-    {
+.imageDisp {
+    max-width: 50%;
+    object-fit: contain;
+    position: relative;
+    transition-duration: 300ms;
+    margin: auto;
+    display: block;
+    border-radius: 70%/50%;
+
+    opacity: 1;
+}
+
+.bw {
+    max-width: 50%;
+    object-fit: contain;
+    position: relative;
+    transition-duration: 300ms;
+    margin: auto;
+    display: block;
+    border-radius: 70%/50%;
+
+    opacity: 0;
+}
+
+.container:hover .imageDisp {
+    opacity: 0;
+}
+
+.container:hover .bw {
+    opacity: 1;
+}
+
+.container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+@media (min-width: 640px) {
+    .text {
         font-size: 4rem;
         -webkit-text-stroke: 2px #0f172a;
     }
 
-    .sectionContent
-    {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+    .sectionContent {
+        flex-direction: row;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
-    .paragraph
-    {
+    .paragraph {
         padding: 24px;
+    }
+
+    .imageDisp
+    {
+        max-width: 100%;
+    }
+    .bw
+    {
+        max-width: 100%;
     }
 }
