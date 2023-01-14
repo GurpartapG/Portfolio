@@ -4,7 +4,7 @@ import styles from './header.module.css'
 export default function Header() {
     return (
         <header className={styles.header}>
-            <h1 className={styles.headerText}>Gurpartap Gill</h1>
+            <h1 className={styles.headerText}>Gurpartap</h1>
             <div className={styles.navItems}>
                 <a href='#aboutme' className={styles.anchor}>
                     <i className={`fa-solid fa-user-astronaut ${styles.icons}`}></i>
