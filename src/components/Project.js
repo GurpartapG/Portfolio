@@ -46,7 +46,7 @@ export default function Projects() {
             github={"https://github.com/GurpartapG/TikTacToe"}>
             An emulation of tic-tac-toe
             <br></br><br></br>
-            Python 
+            Python
           </ImageOverlay>
           <ImageOverlay
             imgSrc={blackjack}
@@ -54,7 +54,7 @@ export default function Projects() {
             github={"https://github.com/GurpartapG/BlackJack---Python"}>
             A game modelling the example of a casino banked game
             <br></br><br></br>
-            Python 
+            Python
           </ImageOverlay>
           <ImageOverlay
             imgSrc={movie}

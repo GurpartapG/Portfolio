@@ -1,5 +1,4 @@
-.wrapper
-{
+.wrapper {
     width: 850px;
     max-width: 100%;
     display: flex;
@@ -7,18 +6,14 @@
     flex-direction: column;
 }
 
-.sectionContent
-{
+.sectionContent {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 5px;
 }
 
-@media (min-width: 640px)
-{
-    .sectionContent
-    {
+@media (min-width: 640px) {
+    .sectionContent {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
-

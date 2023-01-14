@@ -91,12 +91,11 @@
         padding: 24px;
     }
 
-    .imageDisp
-    {
+    .imageDisp {
         max-width: 100%;
     }
-    .bw
-    {
+
+    .bw {
         max-width: 100%;
     }
 }

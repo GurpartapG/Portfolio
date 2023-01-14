@@ -3,7 +3,7 @@
     object-fit: contain;
     position: relative;
     transition-duration: 300ms;
-    
+
 }
 
 .img {
@@ -61,7 +61,6 @@
     background: white;
 }
 
-.paragraph
-{
+.paragraph {
     margin-bottom: 10px;
 }
