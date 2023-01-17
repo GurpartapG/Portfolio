@@ -17,6 +17,7 @@ export default function Education() {
                         <li>
                             <p>BSc. Hons. Computer Science</p>
                             <li><p>Director of Events for TechLife</p></li>
+                            <li><p>Recipient of Provost’s Award for Fall/Winter 2022 based on academic merit</p></li>
                         </li>
                     </ListEntry>
                     <ListEntry title={"Sheridan College"} date={"September 2018 - April 2020"}>
