@@ -6,7 +6,7 @@ export default function Footer() {
     <div id="footer" className={styles.footerWrapper}>
       Contact:
       <a href="mailto:gurpartap22gill@gmail.com" className={styles.icon}>
-        <i class="fa-solid fa-envelope"></i>
+        <i className="fa-solid fa-envelope"></i>
       </a>
       <a href="https://github.com/GurpartapG" rel="noreferrer" target="_blank" className={styles.icon}>
         <i className="fa-brands fa-github"></i>
