@@ -48,6 +48,17 @@ export default function Education() {
                         <li className={styles.list}>
                             <i className="fa-brands fa-python"></i> &nbsp;python
                         </li>
+
+                        <li className={styles.list}>
+                            <i className="fa fa-chart-bar" aria-hidden="true"></i> &nbsp;Power BI
+                        </li>
+                        <li className={styles.list}>
+                            <i className="fa fa-cloud" aria-hidden="true"></i> &nbsp;Snowflake
+                        </li>
+                        <li className={styles.list}>
+                            <i className="fa fa-database" aria-hidden="true"></i> &nbsp;Dataiku
+                        </li>
+
                         <li className={styles.list}>
                             <i className="fa-solid fa-c"></i> &nbsp;C
                         </li>
