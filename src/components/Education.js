@@ -39,56 +39,6 @@ export default function Education() {
                         </li>
                     </ListEntry>
                 </div>
-
-                <div className={styles.skills}>
-                    <ul className={styles.title}>
-                        <li className={styles.list}>
-                            <i className="fa-brands fa-java"></i> &nbsp;Java
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa-brands fa-python"></i> &nbsp;python
-                        </li>
-
-                        <li className={styles.list}>
-                            <i className="fa fa-chart-bar" aria-hidden="true"></i> &nbsp;Power BI
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa fa-cloud" aria-hidden="true"></i> &nbsp;Snowflake
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa fa-database" aria-hidden="true"></i> &nbsp;Dataiku
-                        </li>
-
-                        <li className={styles.list}>
-                            <i className="fa-solid fa-c"></i> &nbsp;C
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa-brands fa-square-js"></i> &nbsp;JavaScript
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa-brands fa-html5"></i> &nbsp;HTML
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa-brands fa-css3-alt"></i> &nbsp;CSS
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa-brands fa-react"></i> &nbsp;React
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa-brands fa-git-alt"></i> &nbsp;Git
-                        </li>
-                        <li className={styles.list}>
-                            <i className="fa-brands fa-node-js"></i> &nbsp;Node.js
-                        </li>
-                        <li className={styles.list}>
-                        <i className="fa fa-mysql" aria-hidden="true"></i>&nbsp;MySql
-                        </li>
-                        <li className={styles.list}>
-                        <i className="fa fa-csharp" aria-hidden="true"></i>&nbsp;C#
-                        </li>
-                    </ul>
-
-                </div>
             </div>
         </section>
     )

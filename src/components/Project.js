@@ -15,14 +15,14 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className={styles.wrapper}>
-        <Sectionintroduction >PROJECTS</Sectionintroduction>
+        <Sectionintroduction>PROJECTS</Sectionintroduction>
         <div className={styles.sectionContent}>
 
           <ImageOverlay
             imgSrc={audio}
             title={"Audio To Speech"}
             github={"https://github.com/GurpartapG/Audio-To-Speech---AssemblyAI.git"}>
-            An attempt at making a demo project to convert an audio file to text using Assembly AI.
+            An AI-powered project that converts audio files into text using Assembly AI.
             <br></br><br></br>
             Python &nbsp;&nbsp;&nbsp; AssemblyAI
           </ImageOverlay>
@@ -31,7 +31,7 @@ export default function Projects() {
             imgSrc={smokeSensor}
             title={"Smoke Detector Alarm"}
             github={"https://github.com/GurpartapG/Smoke-Detector-Alarm"}>
-            The Arduino uno board is assembled using a MQ-2 sensor which helps in detecting gas leakage and alerts by producing a siren sound
+            The Arduino Uno board is assembled with an MQ-2 sensor to detect gas leaks, such as LPG, methane, and smoke. Alerts are produced by a siren sound.
             <br></br><br></br>
             C++
           </ImageOverlay>
@@ -40,7 +40,7 @@ export default function Projects() {
             imgSrc={portfolioPic}
             title={"Portfolio Site"}
             github={"https://github.com/GurpartapG/portfolio.git"}>
-            The current website which serves as my personal portfolio desgned to exhibit my projects and skills
+            The current website serving as a personal portfolio to showcase my projects and skills. Built using React and styled using CSS.
             <br></br><br></br>
             Javascript &nbsp;&nbsp;&nbsp;  CSS &nbsp;&nbsp;&nbsp;  HTML&nbsp;&nbsp;&nbsp; REACT
           </ImageOverlay>
@@ -49,7 +49,7 @@ export default function Projects() {
             imgSrc={soccer}
             title={"Soccer Knockout"}
             github={"https://github.com/GurpartapG/Random-Football-Match"}>
-            A software developed to randomly generate a football match between eight teams that qualifies them for a hierarchy of levels
+            A software developed to randomly generate a football match between eight teams, qualifying them for a hierarchy of levels in a knockout format.
             <br></br><br></br>
             C#
           </ImageOverlay>
@@ -58,7 +58,7 @@ export default function Projects() {
             imgSrc={tictactoe}
             title={"Tic Tac Toe"}
             github={"https://github.com/GurpartapG/TikTacToe"}>
-            An emulation of tic-tac-toe
+            A simple implementation of the classic Tic-Tac-Toe game using Python, showcasing basic game logic and user interaction.
             <br></br><br></br>
             Python
           </ImageOverlay>
@@ -67,7 +67,7 @@ export default function Projects() {
             imgSrc={blackjack}
             title={"Black Jack"}
             github={"https://github.com/GurpartapG/BlackJack---Python"}>
-            A game modelling the example of a casino banked game
+            A game simulating the popular casino game Blackjack, allowing users to play against the house using Python.
             <br></br><br></br>
             Python
           </ImageOverlay>
@@ -76,7 +76,7 @@ export default function Projects() {
             imgSrc={movie}
             title={"Box-Office"}
             github={"https://github.com/GurpartapG/Movie-Ticket"}>
-            A preliminary system imitating the box office programmed for selling movie tickets to general public
+            A basic replica of an online movie ticket purchase system with a SQL-driven database and a GUI application for ticket bookings.
             <br></br><br></br>
             C# &nbsp;&nbsp;&nbsp;  ASP
           </ImageOverlay>
@@ -85,7 +85,7 @@ export default function Projects() {
             imgSrc={phonebook}
             title={"Phone-Book"}
             github={"https://github.com/GurpartapG/Phone-Book-Application-C"}>
-            Telephone directory built to add new contacts and modify as per requirement
+            A telephone directory application built to add, update, and manage contacts, with features for modifying contact details as needed.
             <br></br><br></br>
             C
           </ImageOverlay>

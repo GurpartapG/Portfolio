@@ -1,0 +1,75 @@
+.wrapper {
+    width: 850px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skillsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skillItem {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.categoryTitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: -20px;
+    color: #0f172a;
+}
+
+.certificationsTitle {
+    text-align: center;
+    font-size: 1.8rem; /* Slightly reduce the title size */
+    font-weight: 600; /* Reduce thickness of the title */
+    color: #0f172a;
+    margin-bottom: -20px; /* Reduced space below the title */
+  }
+  
+  .certificationList {
+    padding-left: 1.5rem;
+    font-size: 1.1rem; /* Slightly reduce text size */
+    font-weight: 400; /* Regular font weight for certifications */
+    line-height: 1.8; /* Adjusted line height for better spacing */
+    margin-bottom: 20px;
+  }
+  
+  .certificationList li {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 8px 0; /* Reduced padding between list items */
+  }
+  
+  .companyName {
+    font-style: italic;
+    font-weight: 500; /* Reduce the thickness of company names */
+    color: #333;
+  }
+  
+
+@media (min-width: 640px) {
+    .skillItem {
+        font-size: 1.2rem;
+        padding: 15px 20px;
+    }
+}
+

@@ -1,0 +1,72 @@
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.titleCompany {
+    text-align: left;
+}
+
+.dateLocation {
+    text-align: right;
+}
+
+.company {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.location {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.title {
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.date {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+.ul {
+    font-size: 0.9rem;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+@media (min-width: 640px) {
+    .headerWrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .title {
+        font-size: 1.3rem;
+    }
+
+    .company {
+        padding-left: 10px;
+    }
+
+    .date {
+        font-size: 1rem;
+    }
+
+    .location {
+        padding-left: 10px;
+    }
+
+    .ul {
+        padding-left: 40px;
+    }
+}

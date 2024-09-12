@@ -1,0 +1,77 @@
+.wrapper {
+    width: 850px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-weight: 600;
+    text-align: center;
+}
+
+.company {
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.location {
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.date {
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+.ul {
+    font-size: 0.9rem;
+    padding: 0 20px;
+    list-style-type: disc;
+    max-width: 700px; /* Limits text expansion for better wrapping */
+}
+
+@media (min-width: 640px) {
+    .headerWrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .title {
+        font-size: 1.3rem;
+    }
+
+    .date, .company, .location {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .ul {
+        font-size: 0.85rem;
+        max-width: 750px; /* Wider text wrapping for larger screens */
+    }
+}
