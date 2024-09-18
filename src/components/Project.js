@@ -10,6 +10,10 @@ import blackjack from '../assets/blackjack.png'
 import phonebook from '../assets/phonebook.png'
 import audio from '../assets/audio_speech.png'
 import ImageOverlay from './ImageOverlay'
+import jobScraper from '../assets/jobScraper.png';
+import redditSentiment from '../assets/redditSentiment.png';
+import taskManager from '../assets/taskManager.png';
+
 
 export default function Projects() {
   return (
@@ -28,12 +32,30 @@ export default function Projects() {
           </ImageOverlay>
 
           <ImageOverlay
-            imgSrc={smokeSensor}
-            title={"Smoke Detector Alarm"}
-            github={"https://github.com/GurpartapG/Smoke-Detector-Alarm"}>
-            The Arduino Uno board is assembled with an MQ-2 sensor to detect gas leaks, such as LPG, methane, and smoke. Alerts are produced by a siren sound.
+            imgSrc={jobScraper}
+            title={"Job Listing Scraper"}
+            github={"https://github.com/GurpartapG/Job-Listing-Scraper"}>
+            A Python-based project using Selenium and BeautifulSoup to scrape job listings from LinkedIn. The scraped data is saved in a CSV file for analysis.            <br></br><br></br>
             <br></br><br></br>
-            C++
+            Python &nbsp;&nbsp;&nbsp; Selenium &nbsp;&nbsp;&nbsp; BeautifulSoup
+          </ImageOverlay>
+
+          <ImageOverlay
+            imgSrc={redditSentiment}
+            title={"Social Media Sentiment Analysis"}
+            github={"https://github.com/GurpartapG/Social-Media-Sentiment-Analysis"}>
+            A sentiment analysis project using Reddit API and TextBlob to analyze posts from the r/cscareerquestions subreddit. Results are exported as a CSV file.
+            <br></br><br></br>
+            Python &nbsp;&nbsp;&nbsp; TextBlob &nbsp;&nbsp;&nbsp; PRAW
+          </ImageOverlay>
+
+          <ImageOverlay
+            imgSrc={taskManager}
+            title={"Task Manager"}
+            github={"https://github.com/GurpartapG/Task-Manager"}>
+            A React-based task management application that syncs tasks with Google Calendar. Users can add, delete, and view tasks that are directly integrated into their Google Calendar.
+            <br></br><br></br>
+            React &nbsp;&nbsp;&nbsp; Google Calendar API &nbsp;&nbsp;&nbsp; JavaScript
           </ImageOverlay>
 
           <ImageOverlay
@@ -43,6 +65,15 @@ export default function Projects() {
             The current website serving as a personal portfolio to showcase my projects and skills. Built using React and styled using CSS.
             <br></br><br></br>
             Javascript &nbsp;&nbsp;&nbsp;  CSS &nbsp;&nbsp;&nbsp;  HTML&nbsp;&nbsp;&nbsp; REACT
+          </ImageOverlay>
+
+          <ImageOverlay
+            imgSrc={smokeSensor}
+            title={"Smoke Detector Alarm"}
+            github={"https://github.com/GurpartapG/Smoke-Detector-Alarm"}>
+            The Arduino Uno board is assembled with an MQ-2 sensor to detect gas leaks, such as LPG, methane, and smoke. Alerts are produced by a siren sound.
+            <br></br><br></br>
+            C++
           </ImageOverlay>
 
           <ImageOverlay
