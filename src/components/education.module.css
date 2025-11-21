@@ -8,7 +8,7 @@
 .timeline {
   position: relative;
   margin: 40px 0;
-  padding-left: 9; /* moved cards LEFT */
+  padding-left: 9px; /* moved cards LEFT */
 }
 
 .timeline::before {
