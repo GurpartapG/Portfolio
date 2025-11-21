@@ -1,30 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.58f4debf.css",
-    "main.js": "/Portfolio/static/js/main.777c52f1.js",
-    "static/media/me.jpg": "/Portfolio/static/media/me.4400c67493cce2c6b25e.jpg",
-    "static/media/mebw.jpg": "/Portfolio/static/media/mebw.6ee83fbe3c86b89b5d9f.jpg",
+    "main.css": "/Portfolio/static/css/main.1e52d5e1.css",
+    "main.js": "/Portfolio/static/js/main.32f790ba.js",
     "static/media/fa-solid-900.ttf": "/Portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/jobScraper.png": "/Portfolio/static/media/jobScraper.d7a10743159ed18b51e3.png",
     "static/media/fa-brands-400.ttf": "/Portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/Portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/audio_speech.png": "/Portfolio/static/media/audio_speech.e01361a057ad418a8bac.png",
     "static/media/fa-brands-400.woff2": "/Portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/smokeSensor.jpg": "/Portfolio/static/media/smokeSensor.0d5922645a1840612b8b.jpg",
     "static/media/fa-regular-400.ttf": "/Portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/redditSentiment.png": "/Portfolio/static/media/redditSentiment.6db97ff7d39d5275574b.png",
-    "static/media/portfolioPic.png": "/Portfolio/static/media/portfolioPic.b668159d4709192c56bb.png",
     "static/media/fa-regular-400.woff2": "/Portfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/mysql.png": "/Portfolio/static/media/mysql.7d8d571e5629923eaf74.png",
     "static/media/fa-v4compatibility.ttf": "/Portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/movie.png": "/Portfolio/static/media/movie.e6f89582eeb670ec3056.png",
     "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.58f4debf.css.map": "/Portfolio/static/css/main.58f4debf.css.map",
-    "main.777c52f1.js.map": "/Portfolio/static/js/main.777c52f1.js.map"
+    "main.1e52d5e1.css.map": "/Portfolio/static/css/main.1e52d5e1.css.map",
+    "main.32f790ba.js.map": "/Portfolio/static/js/main.32f790ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.58f4debf.css",
-    "static/js/main.777c52f1.js"
+    "static/css/main.1e52d5e1.css",
+    "static/js/main.32f790ba.js"
   ]
 }
