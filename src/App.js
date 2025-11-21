@@ -16,9 +16,7 @@ function App() {
       {/* Top navigation bar */}
       <Navbar/>
       {/* <Header /> */}
-
       
-
       <main>
 
         {/* Hero / Landing Section */}
@@ -57,7 +55,6 @@ function App() {
       <section id="contact">
         <Footer />
       </section>
-
     </div>
   );
 }
