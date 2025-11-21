@@ -1,75 +1,104 @@
-.wrapper {
-    width: 850px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.section { 
+  width: 100%; 
+  margin: 0 auto; 
+  padding: 40px 0; 
+  max-width: 1000px;  
 }
 
-.sectionContent {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.categories { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 40px; 
+  align-items: center;
 }
 
-.skillsGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+.category { 
+  background: rgba(184, 161, 232, 0.05); 
+  border: 1px solid rgba(184, 161, 232, 0.12); 
+  padding: 24px; 
+  border-radius: var(--radius); 
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25); 
+  transition: var(--transition); 
+
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%
+} 
+
+
+
+.category:hover { 
+  border-color: rgba(184, 161, 232, 0.25); 
+  box-shadow: 0 10px 30px rgba(184, 161, 232, 0.18); 
+} 
+
+.catTitle { 
+  font-size: 1.2rem; 
+  color: var(--lavender-light); 
+  font-weight: 600; 
+  margin-bottom: 14px; 
+} 
+
+.tags { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+} 
+
+.tags span { 
+  padding: 5px 12px; 
+  border-radius: 999px; 
+  background: rgba(184, 161, 232, 0.18); 
+  border: 1px solid rgba(184, 161, 232, 0.35); 
+  font-size: 0.85rem; 
+  color: var(--lavender-light); 
+} 
+
+/* Certificates */ 
+
+.certSection { 
+  margin-top: 40px; 
+} 
+
+.certList { 
+  margin-top: 10px; 
+  color: var(--text-soft); 
+  padding-left: 20px; 
+  line-height: 1.6; 
+} 
+
+.certList li { 
+  margin-bottom: 6px; 
+} 
+
+/* Certificate Grid */ 
+
+.certGrid { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 12px; 
+  margin-top: 12px; 
+} 
+
+/* Individual certificate boxes */ 
+
+.certCard { 
+  padding: 10px 16px; 
+  background: rgba(184, 161, 232, 0.12); 
+  border: 1px solid rgba(184, 161, 232, 0.28); 
+  border-radius: var(--radius); 
+  color: var(--lavender-light); 
+  font-size: 0.85rem; 
+  font-weight: 'normal'; 
+  transition: var(--transition); 
+  backdrop-filter: blur(2px); 
+} 
+
+.certCard:hover { 
+  border-color: rgba(184, 161, 232, 0.5); 
+  background: rgba(184, 161, 232, 0.18); 
+  transform: translateY(-2px); 
 }
 
-.skillItem {
-    background-color: #f0f0f0;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
-.categoryTitle {
-    font-size: 1.8rem;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: -20px;
-    color: #0f172a;
-}
-
-.certificationsTitle {
-    text-align: center;
-    font-size: 1.8rem; /* Slightly reduce the title size */
-    font-weight: 600; /* Reduce thickness of the title */
-    color: #0f172a;
-    margin-bottom: -20px; /* Reduced space below the title */
-  }
-  
-  .certificationList {
-    padding-left: 1.5rem;
-    font-size: 1.1rem; /* Slightly reduce text size */
-    font-weight: 400; /* Regular font weight for certifications */
-    line-height: 1.8; /* Adjusted line height for better spacing */
-    margin-bottom: 20px;
-  }
-  
-  .certificationList li {
-    list-style-type: disc;
-    margin-left: 20px;
-    padding: 8px 0; /* Reduced padding between list items */
-  }
-  
-  .companyName {
-    font-style: italic;
-    font-weight: 500; /* Reduce the thickness of company names */
-    color: #333;
-  }
-  
-
-@media (min-width: 640px) {
-    .skillItem {
-        font-size: 1.2rem;
-        padding: 15px 20px;
-    }
-}
 

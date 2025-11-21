@@ -1,0 +1,128 @@
+
+/* ------------------------------
+   GLOBAL VARIABLES
+------------------------------ */
+:root {
+  --navy-1: #0c1220;      /* main background */
+  --navy-2: #101728;      /* section background */
+  --navy-3: #161d2f;      /* card background */
+
+  --lavender: #b8a1e8;    /* soft accent */
+  --lavender-light: #cbb7f5;
+
+  --text-main: #f2f4f8;
+  --text-soft: #b8bcca;
+  --text-muted: #98a0b3;
+
+  --radius: 14px;
+  --transition: 0.25s ease;
+}
+
+/* ------------------------------
+   GLOBAL RESET
+------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--navy-1);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+/* Layout wrapper */
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------------------------
+   SECTION STYLING
+------------------------------ */
+section {
+  padding: 90px 12%;
+  width: 100%;
+}
+
+/* Gradient backgrounds for subtle variation */
+section:nth-child(even) {
+  background: radial-gradient(
+    circle at top left,
+    rgba(184,161,232,0.08),
+    rgba(12,18,32,1)
+  );
+}
+
+section:nth-child(odd) {
+  background: radial-gradient(
+    circle at bottom right,
+    rgba(184,161,232,0.06),
+    rgba(16,23,40,1)
+  );
+}
+
+section#contact {
+  min-height: 5px;
+  padding-bottom: 10px;
+  background: transparent;
+}
+
+/* ------------------------------
+   BUTTONS
+------------------------------ */
+button, .btn {
+  padding: 10px 22px;
+  border-radius: var(--radius);
+  border: 1px solid var(--lavender);
+  background: transparent;
+  color: var(--lavender);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button:hover, .btn:hover {
+  background: var(--lavender);
+  color: var(--navy-1);
+  transform: translateY(-2px);
+}
+
+/* ------------------------------
+   HEADERS + TITLES
+------------------------------ */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: var(--lavender-light);
+}
+
+/* ------------------------------
+   CARDS
+------------------------------ */
+.card {
+  background: var(--navy-3);
+  border-radius: var(--radius);
+  padding: 25px;
+  transition: var(--transition);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(184,161,232,0.20);
+}
+
+

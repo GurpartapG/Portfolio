@@ -1,19 +1,115 @@
-.wrapper {
-    width: 850px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.section {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.sectionContent {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 5px;
+/* Wrapper for all cards */
+.allCards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-@media (min-width: 640px) {
-    .sectionContent {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+/* Main card */
+.cardWrapper {
+  background: linear-gradient(
+    to bottom right,
+    rgba(184, 161, 232, 0.12),
+    rgba(12, 18, 32, 0.6)
+  );
+  border: 1px solid rgba(184, 161, 232, 0.25);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+  transition: var(--transition);
+}
+
+.cardWrapper:hover {
+  transform: translateY(-4px);
+  border-color: rgba(184, 161, 232, 0.42);
+  box-shadow: 0 14px 40px rgba(184, 161, 232, 0.22);
+}
+
+/* Title + subtitles */
+.title {
+  font-size: 1.35rem;
+  color: var(--lavender-light);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+/* Description */
+.description {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  margin-bottom: 14px;
+  line-height: 1.55;
+}
+
+/* Bullet list */
+.bullets {
+  margin-left: 16px;
+  margin-bottom: 14px;
+  color: var(--text-soft);
+}
+
+.bullets li {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+/* Tech tags */
+.techRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.techTag {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(184, 161, 232, 0.45);
+  color: var(--lavender-light);
+  font-size: 0.78rem;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.primaryBtn {
+  background: var(--lavender);
+  color: var(--navy-1);
+  padding: 8px 18px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px rgba(184, 161, 232, 0.55);
+}
+
+.secondaryBtn {
+  padding: 8px 18px;
+  color: var(--lavender-light);
+  border: 1px solid rgba(184,161,232,0.5);
+  border-radius: var(--radius);
+  text-decoration: none;
+}
+
+.secondaryBtn:hover {
+  background: rgba(184, 161, 232, 0.15);
+  transform: translateY(-2px);
 }

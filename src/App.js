@@ -1,28 +1,64 @@
-/*import logo from './logo.svg';
-import './App.css';*/
+import './App.css';
 
-import Aboutme from "./components/Aboutme";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import WorkExperience from "./components/WorkExperience";
+import Skills from "./components/SkillsAndCertificates";
+import About from "./components/Aboutme";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Project from "./components/Project";
-import SkillsAndCertificates from "./components/SkillsAndCertificates";
-import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (
     <div className="app">
-      <main>
-        <Header />
-        <Aboutme />
-        <Education />
-        <SkillsAndCertificates />
-        <WorkExperience />
-        <Project />
-      </main>
-      <Footer />
-    </div>
 
+      {/* Top navigation bar */}
+      <Navbar/>
+      {/* <Header /> */}
+
+      
+
+      <main>
+
+        {/* Hero / Landing Section */}
+        <section id="home">
+          <Hero />
+        </section>
+
+        {/* Projects Section */}
+        <section id="projects">
+          <Projects />
+        </section>
+
+        {/* Work Experience Section */}
+        <section id="work-experience">
+          <WorkExperience />
+        </section>
+
+        {/* Skills Section */}
+        <section id="skills">
+          <Skills />
+        </section>
+
+        {/* About Me Section */}
+        <section id="about">
+          <About />
+        </section>
+
+        {/* Education Section */}
+        <section id="education">
+          <Education />
+        </section>
+
+      </main>
+
+      {/* Footer */}
+      <section id="contact">
+        <Footer />
+      </section>
+
+    </div>
   );
 }
 

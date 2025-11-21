@@ -1,108 +1,92 @@
-import React from 'react';
-import styles from './skillsAndCertificates.module.css';
-import SectionIntroduction from './Sectionintroduction';
+// src/components/SkillsAndCertificates.js
+import React from "react";
+import styles from "./skillsAndCertificates.module.css";
 
 export default function SkillsAndCertificates() {
-    return (
-        <section id="skillsAndCertificates">
-            <div className={styles.wrapper}>
-                <SectionIntroduction dark={false}>
-                    SKILLS & CERTIFICATES
-                </SectionIntroduction>
+  return (
+    <section className={styles.section}>
+      <h2 className="section-title">Skills & Certificates</h2>
 
-                <div className={styles.sectionContent}>
+      {/* ===================== SKILLS ===================== */}
+      <div className={styles.categories}>
 
-                    {/* Programming Languages */}
-                    <h2 className={styles.categoryTitle}>Programming Languages</h2>
-                    <div className={styles.skillsGrid}>
-                        <div className={styles.skillItem}><i className="fa-brands fa-java"></i> Java</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> Python</div>
-                        <div className={styles.skillItem}><i className="fa-solid fa-c"></i> C</div>
-                        <div className={styles.skillItem}><i className="fa-solid fa-c"></i> C#</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-square-js"></i> JavaScript</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-html5"></i> HTML</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-css3-alt"></i> CSS</div>
-                        <div className={styles.skillItem}><i className="fa fa-database"></i> SQL</div>
-                        <div className={styles.skillItem}><i className="fa-solid fa-brain"></i> Prolog</div>
-                    </div>
+        {/* Programming */}
+        <div className={styles.category}>
+          <h3 className={styles.catTitle}>Programming Languages</h3>
+          <div className={styles.tags}>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Java</span>
+            <span>C</span>
+            <span>C#</span>
+          </div>
+        </div>
 
-                    {/* Frameworks & Libraries */}
-                    <h2 className={styles.categoryTitle}>Frameworks & Libraries</h2>
-                    <div className={styles.skillsGrid}>
-                        <div className={styles.skillItem}><i className="fa-brands fa-react"></i> React (Native)</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-angular"></i> Angular</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-node-js"></i> Node.js</div>
-                        <div className={styles.skillItem}><i className="fa fa-flask"></i> Flask</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> Django</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> NumPy</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> Pandas</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> Scikit Learn</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> Matplotlib</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> Plotly</div>
-                    </div>
+        {/* Data Analysis */}
+        <div className={styles.category}>
+          <h3 className={styles.catTitle}>Data Analysis & Visualization</h3>
+          <div className={styles.tags}>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+            <span>SciPy</span>
+            <span>Power BI</span>
+          </div>
+        </div>
 
-                    {/* Cloud & Databases */}
-                    <h2 className={styles.categoryTitle}>Cloud & Databases</h2>
-                    <div className={styles.skillsGrid}>
-                        <div className={styles.skillItem}><i className="fa-brands fa-aws"></i> AWS</div>
-                        <div className={styles.skillItem}><i className="fa fa-snowfake"></i> Snowflake</div>
-                        <div className={styles.skillItem}><i className="fa fa-share-nodes"></i> Neo4j</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-envira"></i> MongoDB</div>
-                        <div className={styles.skillItem}><i className="fa fa-database"></i> SQL Databases (MySQL, SQL Server, Oracle)</div>
-                    </div>
+        {/* ML */}
+        <div className={styles.category}>
+          <h3 className={styles.catTitle}>Machine Learning & AI</h3>
+          <div className={styles.tags}>
+            <span>Scikit-Learn</span>
+            <span>XGBoost</span>
+            <span>Feature Engineering</span>
+            <span>Model Evaluation</span>
+            <span>TextBlob</span>
+            <span>BeautifulSoup</span>
+            <span>Jupyter / Colab</span>
+          </div>
+        </div>
 
-                     {/* Business Intelligence & Data Science Tools */}
-                     <h2 className={styles.categoryTitle}>Business Intelligence & Data Science Tools</h2>
-                    <div className={styles.skillsGrid}>
-                        <div className={styles.skillItem}><i className="fa fa-chart-simple"></i> Power BI</div>
-                        <div className={styles.skillItem}><i className="fa fa-crow"></i> Dataiku</div>
-                        <div className={styles.skillItem}><i className="fa fa-chart-bar"></i> Alteryx</div>
-                    </div>
+        {/* Data Engineering */}
+        <div className={styles.category}>
+          <h3 className={styles.catTitle}>Data Engineering & Pipelines</h3>
+          <div className={styles.tags}>
+            <span>Snowflake</span>
+            <span>Dataiku</span>
+            <span>SQLDBM</span>
+            <span>SQLite</span>
+            <span>ETL Pipelines</span>
+            <span>Data Modeling</span>
+            <span>SQL Optimization</span>
+            <span>Python Logging</span>
+            <span>Alteryx</span>
+          </div>
+        </div>
 
-                    {/* Tools & Technologies */}
-                    <h2 className={styles.categoryTitle}>Tools & Technologies</h2>
-                    <div className={styles.skillsGrid}>
-                        <div className={styles.skillItem}><i className="fa-brands fa-git-alt"></i> Git</div>
-                        <div className={styles.skillItem}><i className="fa fa-terminal"></i> Visual Studio</div>
-                        <div className={styles.skillItem}><i className="fa fa-laptop"></i> IntelliJ</div>
-                        <div className={styles.skillItem}><i className="fa fa-laptop"></i> Eclipse</div>
-                        <div className={styles.skillItem}><i className="fa fa-desktop"></i> NetBeans</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> Anaconda</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-python"></i> PyCharm</div>
-                        <div className={styles.skillItem}><i className="fa-solid fa-laptop-code"></i> Postman</div>
-                        <div className={styles.skillItem}><i className="fa fa-code"></i> Pelles C</div>
-                        <div className={styles.skillItem}><i className="fa fa-search"></i> Selenium</div>
-                        <div className={styles.skillItem}><i className="fa fa-search"></i> Beautiful Soup</div>
-                    </div>
+        {/* Cloud & Tools */}
+        <div className={styles.category}>
+          <h3 className={styles.catTitle}>Cloud & Dev Tools</h3>
+          <div className={styles.tags}>
+            <span>AWS</span>
+            <span>Git</span>
+            <span>VS Code</span>
+          </div>
+        </div>
 
-                    {/* Design & Prototyping */}
-                    <h2 className={styles.categoryTitle}>Design & Prototyping</h2>
-                    <div className={styles.skillsGrid}>
-                        <div className={styles.skillItem}><i className="fa-brands fa-invision"></i> InVision</div>
-                        <div className={styles.skillItem}><i className="fa-brands fa-figma"></i> Figma</div>
-                    </div>
-
-                    {/* Certifications */}
-                    <h2 className={styles.certificationsTitle}>Certifications</h2>
-                      <ul className={styles.certificationList}>
-                        <li>
-                          Hands-On Essentials: Data Engineering Workshop | <span className={styles.companyName}>Snowflake</span>
-                        </li>
-                        <li>
-                          Hands-On Essentials: Collaboration, Marketplace & Cost Estimation Workshop | <span className={styles.companyName}>Snowflake</span>
-                        </li>
-                        <li>
-                          Hands-On Essentials: Data Lake Warehouse | <span className={styles.companyName}>Snowflake</span>
-                        </li>
-                        <li>
-                          Hands-On Essentials: Data Warehousing Workshop | <span className={styles.companyName}>Snowflake</span>
-                        </li>
-                        <li>
-                          Amazon Web Services Technical Essentials | <span className={styles.companyName}>AWS</span>
-                        </li>
-                      </ul>
-                </div>
-            </div>
-        </section>
-    );
+        {/* ===================== CERTIFICATIONS ===================== */}
+        <div className={styles.category}>
+          <h3 className={styles.catTitle}>Certificates</h3>
+          <div className={styles.certGrid}>
+            <span className={styles.certCard}>Snowflake • Data Engineering Workshop</span>
+            <span className={styles.certCard}>Snowflake • Data Lake Warehouse</span>
+            <span className={styles.certCard}>Snowflake • Collaboration & Cost Estimation</span>
+            <span className={styles.certCard}>Snowflake • Data Warehousing Workshop</span>
+            <span className={styles.certCard}>AWS • Technical Essentials</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

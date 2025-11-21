@@ -1,0 +1,99 @@
+.hero {
+  position: relative;
+  padding: 140px 12% 120px 12%;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.content {
+  max-width: 650px;
+  z-index: 2;
+}
+
+/* Name */
+.name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--lavender-light);
+  margin-bottom: 12px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-main);
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 1.05rem;
+  color: var(--text-soft);
+  margin-bottom: 18px;
+}
+
+/* Supporting line */
+.supportLine {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  max-width: 550px;
+  margin-bottom: 26px;
+  line-height: 1.45;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.btnPrimary {
+  padding: 10px 22px;
+  border-radius: var(--radius);
+  background: var(--lavender);
+  color: var(--navy-1);
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(184,161,232,0.45);
+}
+
+.btnSecondary {
+  padding: 10px 22px;
+  border-radius: var(--radius);
+  border: 1px solid var(--lavender);
+  color: var(--lavender);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btnSecondary:hover {
+  background: var(--lavender);
+  color: var(--navy-1);
+  transform: translateY(-2px);
+}
+
+/* Soft lavender radial glow */
+.glow {
+  position: absolute;
+  right: -150px;
+  top: -120px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    circle,
+    rgba(184,161,232,0.32),
+    rgba(12,18,32,0)
+  );
+  filter: blur(20px);
+  z-index: 1;
+}

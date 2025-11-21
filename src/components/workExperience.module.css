@@ -1,77 +1,83 @@
-.wrapper {
-    width: 850px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
-.sectionContent {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 20px;
-    gap: 30px;
+.sectionTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--lavender);
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.headerWrapper {
-    display: flex;
-    flex-direction: column;
-    font-size: 0.7rem;
-    align-items: center;
-    padding-bottom: 10px;
+/* Timeline container */
+.timeline {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 30px;
 }
 
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: rgba(184, 161, 232, 0.35);
+}
+
+/* Each entry */
+.entry {
+  margin-bottom: 45px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.entry::before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background: var(--lavender);
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(184,161,232,0.5);
+}
+
+/* Job title */
 .title {
-    font-weight: 600;
-    text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--lavender-light);
 }
 
+/* Company + location */
 .company {
-    font-size: 0.85rem;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 5px;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
 }
 
-.location {
-    font-size: 0.75rem;
-    font-weight: 400;
-    text-align: center;
-}
-
+/* Dates & location row */
 .date {
-    font-size: 0.85rem;
-    font-weight: 400;
-    text-align: right;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+  margin-bottom: 12px;
 }
 
-.ul {
-    font-size: 0.9rem;
-    padding: 0 20px;
-    list-style-type: disc;
-    max-width: 700px; /* Limits text expansion for better wrapping */
+/* Bullets */
+.bullets {
+  margin-left: 18px;
+  color: var(--text-soft);
 }
 
-@media (min-width: 640px) {
-    .headerWrapper {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 20px;
-    }
-
-    .title {
-        font-size: 1.3rem;
-    }
-
-    .date, .company, .location {
-        font-size: 1rem;
-        font-weight: 400;
-    }
-
-    .ul {
-        font-size: 0.85rem;
-        max-width: 750px; /* Wider text wrapping for larger screens */
-    }
+.bullets li {
+  margin-bottom: 6px;
+  font-size: 0.92rem;
+  line-height: 1.4;
 }
